@@ -1,3 +1,17 @@
-2025/09/21-01:49:39.838 1be8 Recovering log #33
-2025/09/21-01:49:39.851 1be8 Delete type=0 #33
-2025/09/21-01:49:39.851 1be8 Delete type=3 #32
+2025/09/21-03:41:17.052 6364 Recovering log #35
+2025/09/21-03:41:17.052 6364 Recovering log #36
+2025/09/21-03:41:17.064 6364 Delete type=0 #35
+2025/09/21-03:41:17.065 6364 Delete type=0 #36
+2025/09/21-03:41:17.065 6364 Delete type=3 #34
+2025/09/21-09:01:33.103 1a40 Level-0 table #39: started
+2025/09/21-09:01:33.117 1a40 Level-0 table #39: 1741 bytes OK
+2025/09/21-09:01:33.122 1a40 Delete type=0 #37
+2025/09/21-09:01:33.128 1a40 Manual compaction at level-0 from '!folders!BL7cCg4AM6rfP8dM' @ 72057594037927935 : 1 .. '!items.effects!zhGDY9JB2XX0ZqMy.armsOfHadar00000' @ 0 : 0; will stop at (end)
+2025/09/21-09:01:33.128 1a40 Manual compaction at level-1 from '!folders!BL7cCg4AM6rfP8dM' @ 72057594037927935 : 1 .. '!items.effects!zhGDY9JB2XX0ZqMy.armsOfHadar00000' @ 0 : 0; will stop at '!folders!w62gumzsfl4VP1NB' @ 3675 : 1
+2025/09/21-09:01:33.129 1a40 Compacting 1@1 + 1@2 files
+2025/09/21-09:01:33.172 1a40 Generated table #40@1: 1052 keys, 1315794 bytes
+2025/09/21-09:01:33.172 1a40 Compacted 1@1 + 1@2 files => 1315794 bytes
+2025/09/21-09:01:33.177 1a40 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/21-09:01:33.178 1a40 Delete type=2 #11
+2025/09/21-09:01:33.178 1a40 Delete type=2 #39
+2025/09/21-09:01:33.209 1a40 Manual compaction at level-1 from '!folders!w62gumzsfl4VP1NB' @ 3675 : 1 .. '!items.effects!zhGDY9JB2XX0ZqMy.armsOfHadar00000' @ 0 : 0; will stop at (end)
