@@ -1,9 +1,9 @@
 {
   "id": "ferahomebrew",
   "title": "FeraHomebrew",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "manifest": "https://github.com/StitchedSable/ferahomebrew/releases/latest/download/module.json",
-  "download": "https://github.com/StitchedSable/ferahomebrew/releases/download/1.0.1/module.zip",
+  "download": "https://github.com/StitchedSable/ferahomebrew/releases/download/2.0.0/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -31,9 +31,9 @@
       }
     },
     {
-      "name": "feraitems",
-      "label": "FeraItems",
-      "path": "packs/feraitems",
+      "name": "feraclasses",
+      "label": "FeraClasses",
+      "path": "packs/feraclasses",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -46,11 +46,69 @@
       "label": "FeraSpells",
       "path": "packs/feraspells",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
+    },
+    {
+      "name": "feraitems",
+      "label": "FeraItems",
+      "path": "packs/feraitems",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feraspecies",
+      "label": "FeraSpecies",
+      "path": "packs/feraspecies",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ferafeatures",
+      "label": "FeraFeatures",
+      "path": "packs/ferafeatures",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feramonsters",
+      "label": "FeraMonsters",
+      "path": "packs/feramonsters",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  ]
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "plutonium",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "auraeffects",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
 }

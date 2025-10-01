@@ -1,25 +1,18 @@
-2025/09/21-03:41:17.029 5c34 Recovering log #42
-2025/09/21-03:41:17.029 5c34 Level-0 table #44: started
-2025/09/21-03:41:17.033 5c34 Level-0 table #44: 10352 bytes OK
-2025/09/21-03:41:17.034 5c34 Recovering log #43
-2025/09/21-03:41:17.045 5c34 Delete type=0 #42
-2025/09/21-03:41:17.046 5c34 Delete type=0 #43
-2025/09/21-03:41:17.046 5c34 Delete type=2 #45
-2025/09/21-03:41:17.047 5c34 Delete type=3 #41
-2025/09/21-05:14:39.638 1a40 Compacting 1@0 + 1@1 files
-2025/09/21-05:14:40.499 1a40 Generated table #46@0: 203 keys, 127644 bytes
-2025/09/21-05:14:40.499 1a40 Compacted 1@0 + 1@1 files => 127644 bytes
-2025/09/21-05:14:40.504 1a40 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/09/21-05:14:40.505 1a40 Delete type=2 #18
-2025/09/21-05:14:40.505 1a40 Delete type=2 #44
-2025/09/21-09:01:33.001 1a40 Level-0 table #48: started
-2025/09/21-09:01:33.029 1a40 Level-0 table #48: 817256 bytes OK
-2025/09/21-09:01:33.036 1a40 Delete type=0 #45
-2025/09/21-09:01:33.037 1a40 Manual compaction at level-0 from '!folders!4cK1vpzV6ajzGlxo' @ 72057594037927935 : 1 .. '!items.effects!vjgjUymbUVa5lrfY.Z86jDQC9Z3tvIn3z' @ 0 : 0; will stop at '!items.effects!nP0q7BYOdSXLt72N.bardicInspiratio' @ 470 : 1
-2025/09/21-09:01:33.037 1a40 Compacting 1@0 + 1@1 files
-2025/09/21-09:01:33.050 1a40 Generated table #49@0: 210 keys, 135428 bytes
-2025/09/21-09:01:33.050 1a40 Compacted 1@0 + 1@1 files => 135428 bytes
-2025/09/21-09:01:33.053 1a40 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/09/21-09:01:33.053 1a40 Delete type=2 #46
-2025/09/21-09:01:33.053 1a40 Delete type=2 #48
-2025/09/21-09:01:33.062 1a40 Manual compaction at level-0 from '!items.effects!nP0q7BYOdSXLt72N.bardicInspiratio' @ 470 : 1 .. '!items.effects!vjgjUymbUVa5lrfY.Z86jDQC9Z3tvIn3z' @ 0 : 0; will stop at (end)
+2025/09/30-19:11:38.886 fb8 Recovering log #134
+2025/09/30-19:11:38.899 fb8 Delete type=0 #134
+2025/09/30-19:11:38.899 fb8 Delete type=3 #132
+2025/09/30-19:54:45.703 39b4 Level-0 table #139: started
+2025/09/30-19:54:45.728 39b4 Level-0 table #139: 619 bytes OK
+2025/09/30-19:54:45.735 39b4 Delete type=0 #137
+2025/09/30-19:54:45.755 39b4 Expanding@0 3+1 (5688+135428 bytes) to 4+1 (6769+135428 bytes)
+2025/09/30-19:54:45.755 39b4 Manual compaction at level-0 from '!folders!bV5yoFBBDRScEObW' @ 72057594037927935 : 1 .. '!folders!iaGTSavtz83eBBXP' @ 0 : 0; will stop at '!items.effects!vjgjUymbUVa5lrfY.Z86jDQC9Z3tvIn3z' @ 746 : 0
+2025/09/30-19:54:45.755 39b4 Compacting 4@0 + 1@1 files
+2025/09/30-19:54:45.767 39b4 Generated table #140@0: 3 keys, 619 bytes
+2025/09/30-19:54:45.769 39b4 Compacted 4@0 + 1@1 files => 619 bytes
+2025/09/30-19:54:45.772 39b4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/09/30-19:54:45.772 39b4 Delete type=2 #49
+2025/09/30-19:54:45.773 39b4 Delete type=2 #77
+2025/09/30-19:54:45.773 39b4 Delete type=2 #81
+2025/09/30-19:54:45.773 39b4 Delete type=2 #135
+2025/09/30-19:54:45.773 39b4 Delete type=2 #139
+2025/09/30-19:54:45.774 39b4 Manual compaction at level-0 from '!items.effects!vjgjUymbUVa5lrfY.Z86jDQC9Z3tvIn3z' @ 746 : 0 .. '!folders!iaGTSavtz83eBBXP' @ 0 : 0; will stop at (end)
